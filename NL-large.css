@@ -1,0 +1,68 @@
+/* Natalie Locherer Thermomix website */
+/* CSS for large-size browser */
+
+
+p { 
+    font-family: 'LobsterRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+ }
+ 
+/* Hide hamburger menu button for large screens */
+.menuButton {
+    visibility: hidden;
+}
+
+/* Set up top menu bar */
+ul.topMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+}
+
+li.topMenuList {
+    float: left;
+}
+
+li.topMenuList a.topMenuLink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.topMenuList a.topMenuLink:hover {
+    background-color: #111;
+    
+}
+
+/* Home page */
+
+/* Main image links */
+
+div.homepg {
+    margin-top: 10em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 0.1em solid #fff000;
+    padding: 1em;
+    text-align: center;
+}
+
+
+div.homepgImgLink {
+     border: 0.1em solid #fff000;
+     display: inline-block;
+     width: 30em;
+     height: 20em;
+     margin: 2em;
+}
+
+
+
+    

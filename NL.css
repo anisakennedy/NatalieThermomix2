@@ -1,0 +1,12 @@
+/* Natalie Locherer Thermomix website */
+/* Set font amd background for whole website */
+body {
+    font-family: sans-serif, Arial; 
+    font-weight: normal; 
+    font-style: normal;
+    background-image: url("vegetable-basket-harvest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #EBFAFF;
+    font-size: 16px;
+}
